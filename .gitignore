@@ -29,10 +29,13 @@
 !/public/robots.txt
 .byebug_history
 
-# Ignore master key for decrypting credentials and more.
-/config/master.key
 
 /node_modules
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+/config/credentials/production.key
+
+# Ignore application configuration
+/config/application.yml
